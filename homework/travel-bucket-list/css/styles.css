@@ -1,0 +1,61 @@
+body{
+	text-align: center;
+	font-family: helvetica;
+		margin: 20px;
+
+}
+h1{
+	background: mediumaquamarine;
+	color: white;
+	font-family: helvetica;
+	font-weight: normal;
+	text-align: center;
+	padding: 20px;
+}
+
+
+
+li{
+	display: inline-block;
+	margin: 10px;
+
+}
+
+img{
+	height: 200px;
+}
+
+
+.boxContent{
+	padding-top: 5px;
+	padding-left: 20px;
+	padding-right:20px;
+	padding-bottom: 30px;
+	margin-bottom: 30px; 
+
+}
+.boxText{
+	text-align: left;
+}
+
+.Maui{
+background: rgb(196, 222, 252);
+
+}
+
+.Reykjavik{
+background: rgb(194, 242, 227);
+}
+
+.Aspen{
+background: rgb(196, 222, 252);
+}
+
+p{
+	font-size: 12px;
+}
+a{
+	text-decoration: none;
+	color: black;
+	font-weight: bold;
+}
