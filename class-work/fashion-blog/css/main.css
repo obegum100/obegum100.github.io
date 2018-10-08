@@ -1,87 +1,98 @@
-body{
-font-family: Lato;
-font-weight: lighter;
+body {
+    font-family: Lato;
+    font-weight: lighter;
+        line-height: 1.5;
+           margin: 0;
 }
 
-.container{
- 	width: 720px;
-    padding: 54px;
-    border-left: solid 6px #dddddd;    
-	line-height: 1.5;
+.container {
+    width: 720px;
+    border-left: solid 6px #dddddd;
+    line-height: 1.5;
 }
 
-.header > * {
-	font-weight: lighter;
-	line-height: .5;
-	
-
-}
-h1{
-	color: #dd0000;
-	font-size: 50px;
+header h1, header h2{
+    display: inline-block;
+    padding-right: 10px;
 }
 
-.header a{
-	 text-decoration: none;
-	 color: #dd0000;
+.header>* {
+    font-weight: lighter;
+    line-height: .5;
 }
 
+header h1 {
+    color: #dd0000;
+    font-size: 50px;
 }
-.heaader h2{
-	color: #000;
+header h2 {
+    color: #000;
+}
+header a {
+    text-decoration: none;
+    color: #dd0000;
 }
 
-.nav a{
- color: rgb(221, 221, 221);
- font-size: 25px;
- text-decoration-line: underline;
+
+
+
+nav a {
+    color: rgb(221, 221, 221);
+    font-size: 20px;
+    text-decoration-line: underline;
 
 
 }
 
 a {
-	margin: 5px;
+    margin: 5px;
 }
 
 .date {
-	color: #cccccc;
-	font-size: 30px;
+    color: #cccccc;
+    font-size: 30px;
 }
 
-.nav:hover{
-	color: #000;
+.nav:hover {
+    color: #000;
 }
 
-.header{
 
+.footer-nav {
+    text-decoration: none;
+    color: rgb(221, 221, 221);
+    text-decoration: none;
 }
 
-.footer-nav{
- text-decoration: none;
-color: rgb(212,0, 25);
+.footer-nav:hover {
+    color: rgb(225, 225, 225);
+        text-decoration: none;
 }
 
-.footer-nav:hover{
- color: rgb(225, 225, 225);
-
-
-}
-.articles {
-	margin-top: 70px;
- 	color: #444444;
-    font-family: Lato;
-    line-height: 1;
-}
-
-.articles h1{
-
-}
-
-.continues{
-	text-align: right;
-}
-.continues a{
+.footer-nav a{
 	color: #dd0000;
-	font-weight: bold;
-	text-decoration: none;
+}
+
+.articles {
+    margin-top: 70px;
+    color: #444444;
+    font-family: Lato;
+}
+
+.articles h1 {
+	font-weight: lighter;
+}
+
+.continues {
+    text-align: right;
+}
+
+.continues a {
+    color: #dd0000;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+img {
+	width: 100%;
 }

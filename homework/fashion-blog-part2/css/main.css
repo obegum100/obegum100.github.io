@@ -1,0 +1,190 @@
+body {
+    color: #444;
+    font-family: "Lato";
+    font-size: 18px;
+    line-height: 1.5;
+    margin: 0px;
+}
+
+.container {
+    font-family: Lato;
+    font-weight: lighter;
+    line-height: 1.5;
+    margin: auto;
+    padding: 54px;
+    width: 1080px;
+
+}
+
+header h1,
+header h2 {
+    display: inline-block;
+    font-weight: lighter;
+    margin: 0px;
+    padding-right: 10px;
+}
+
+/*.header>* {
+    font-weight: lighter;
+    line-height: .5;
+}
+*/
+
+header h1 {
+    font-size: 54px;
+    font-weight: 300;
+}
+
+header h1 a {
+    color: #d00;
+    text-decoration: none;
+}
+
+header h1 a:hover {
+    color: #a00;
+}
+
+header h2 {
+    color: #888;
+    font-size: 27px;
+    font-weight: 300;
+}
+
+nav {
+    background: #000;
+    width: 1080px;
+    margin-bottom: 50px;
+
+}
+
+nav div {
+    display: flex;
+}
+
+nav a {
+    color: #fff;
+    display: inline-block;
+    flex: 1 1 0;
+    font-size: 24px;
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background: #900;
+}
+
+section {
+    float: left;
+    width: 720px;
+}
+
+.articles {
+    color: #444444;
+    font-family: Lato;
+    border-bottom: 1.5px solid #dddddd;
+    margin-bottom: 54px;
+
+}
+
+.articles h1 {
+    color: #000;
+    font-size: 36px;
+    font-weight: 300;
+    margin: 0px;
+}
+
+.date {
+    color: #cccccc;
+    font-size: 36px;
+    font-weight: 300;
+    margin: 0px;
+}
+
+.body::first-letter {
+    font-size: 108px;
+    line-height: 1;
+    float: left;
+    color: rgb(221, 221, 221);
+    padding-bottom: 5px;
+}
+
+.body {
+    text-align: justify;
+}
+
+.continues {
+    text-align: right;
+}
+
+.continues a {
+    color: #dd0000;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.continues a:hover {
+    color: #a00;
+}
+
+img {
+    width: 100%;
+    margin: 20px 0px;
+}
+
+aside {
+    color: #888;
+    float: right;
+    margin-left: 40px;
+    width: 320px;
+}
+
+aside h4 {
+    color: #888;
+    font-weight: bold;
+}
+
+aside .sidePosts {
+    border-bottom: 1.5px solid #dddddd;
+    margin-bottom: 10px;
+}
+
+
+.popularPosts a {
+    text-decoration: none;
+    color: #d00;
+}
+
+.popularPosts a:hover {
+    color: #a00;
+}
+
+footer {
+    color: #bbbbbb;
+
+}
+
+.footer-nav a {
+    text-decoration: none;
+    color: #d00;
+}
+
+
+.footer-nav a:hover {
+    color: #a00;
+    text-decoration: none;
+}
+
+a{
+    color: d00;
+}
+
+a:hover{
+    color: #a00;
+}
+
+
+.clear {
+    clear: both;
+}
