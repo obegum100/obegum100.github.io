@@ -19,3 +19,5 @@
     - Set lights = 'on'
     - Remove the CSS class 'dark' from both the <body> and <button> elements
 */
+
+var lights = 'on'

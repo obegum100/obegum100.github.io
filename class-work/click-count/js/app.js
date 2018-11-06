@@ -30,9 +30,13 @@ $('body').css('background-color', 'green')
 }else if (count === 15) {
 $('body').css('background-color', 'blue')
 
-}else {
-	$('body').css('background-color', 'black')
-
+}else if (count === 20){
+	//Add the css class 'rotate' to <body>
+	$('body').addClass('rotate')
 }
+else {
+	$('body').css('background-color', 'black')
+}
+
 }
 
