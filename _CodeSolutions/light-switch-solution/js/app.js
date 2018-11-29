@@ -20,34 +20,16 @@
     - Remove the CSS class 'dark' from both the <body> and <button> elements
 */
 
-// var lights = 'on'
-
-// function flipTheSwitch() {
-
-// if (lights === 'on') {
-//   //1. reassign lights to 'off'
-//   lights = 'off'
-//   //2. update the DOM/UI
-//   $('body, button').addClass('dark')
-
-// }
-// else {
-//   lights = 'on'
-//   $('body,button').removeClass('dark')
-
-// }
-// }
-
 var lights = 'on'
 
-$('#light-switch').click(flipTheSwitch)
-
-function flipTheSwitch () {
-  $('body,button').toggleClass('dark')
-
-  if (lights=='on') {
-
-  }else{
-
+function flipTheSwitch() {
+  if (lights === 'on') {
+    lights = 'off'
+    $('body, button').addClass('dark')
+  } else {
+    lights = 'on'
+    $('body, button').removeClass('dark')
   }
 }
+
+$('#light-switch').click(flipTheSwitch)
