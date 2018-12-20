@@ -156,12 +156,12 @@ line-height: 26pt;
 }
 
 .whatIcanDoIcon img {
-    width: 120px;
-    height: 120px;
+    width: 180px;
+    height: 180px;
     border-radius:60px;
     color:white;
     background-color: white;
-    border: 3px solid #64637C;
+    //border: 3px solid #64637C;
     
 }
 
