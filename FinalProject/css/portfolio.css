@@ -1,0 +1,162 @@
+/*main*/
+
+body {
+    font-family: 'Muli', sans-serif;
+    font-style: normal;
+    margin: 0px;
+}
+
+.container {
+    margin: auto;
+}
+
+
+
+a{
+    text-decoration: none;
+}
+
+
+/*navigation*/
+
+.navigationHeader{
+    z-index: 10;
+}
+
+.main-menu {
+    background-color: #E45C2E;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 35px;
+    height: 60px;
+
+}
+
+.main-menu h1 a {
+    font-family: 'helvetica', sans-serif;
+    font-weight: lighter;
+    color: white;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+
+.main-menu a:hover{
+    text-decoration: underline;
+    color: #fcfcfc;
+}
+
+
+nav {
+
+}
+
+nav ul{
+
+}
+
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    font-size: 17px;
+}
+
+nav ul li a {
+    color: #fff;
+    margin-left: 20px;
+    text-decoration: none;
+        letter-spacing: 1.5px;
+
+}
+
+
+
+/*sections*/
+
+section h2 {
+    font-weight: bold;
+    color: #E45C2E;
+    text-align: center;
+    font-size: 40px;
+
+}
+
+
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #E45C2E;
+    color: white;
+    font-size: 12px
+    height: 50px;
+    padding: 5px 35px;
+ 
+
+}
+
+
+.footerNav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0px 5px;
+
+}
+
+.footerNav a:hover{
+    text-decoration: underline;
+}
+
+footer i {
+    color: white;
+    font-size: 20px;
+    margin-left: 5px;
+}
+
+
+.clear {
+    clear: both;
+}
+
+.akiContainer img{
+ width: 500px;
+ margin: 15px;
+}
+
+.akiContainer{
+     text-align: center;
+
+}
+.akipagePadding h2{
+    font-size: 24px; 
+    text-align: left;
+    color: black;
+    font-weight: 300;
+    text-transform: uppercase;
+    margin:0px;
+
+}
+
+.akipagePadding p{
+    font-size: 18px;
+    margin: 0px;
+}
+
+#akifooter{
+    margin-top: 25px;
+}
+
+.headerbreak{
+    background-color: #64637C;
+    height: 100px;
+
+
+}
+
+.akipagePadding{
+    margin-top: 50px;
+    padding-left: 35px;
+    padding-right: 35px;
+}
